@@ -67,7 +67,7 @@ end
 
 def runner
   welcome 
-  total = initial_round #tricy too 
+  total = initial_round #tricky too 
   until total > 21
   total = hit?(total) #tricky part  
   display_card_total(total)
